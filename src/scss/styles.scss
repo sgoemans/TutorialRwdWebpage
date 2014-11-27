@@ -1,0 +1,117 @@
+$color1: red;
+$color2: cyan;
+
+$color-asides1: black;
+$color-asides2: green;
+$color-asides3: white;
+
+$color-translation-background: lightgray;
+$color-translation-gradient: rgba(255, 0, 0, 0);
+
+$emboss: 0 18px 0 white;
+
+div:nth-of-type(1) {
+    background:$color1;
+    border-top-color: lighten($color1, 30%);
+    border-right-color: darken($color1, 15%);
+    border-bottom-color: darken($color1, 30%);
+    border-left-color: lighten($color1, 15%);
+    border-width: 10px;
+    border-style: solid;
+}
+
+div:nth-of-type(2) {
+    background:$color2;
+    border-top-color: lighten($color2, 30%);
+    border-right-color: darken($color2, 15%);
+    border-bottom-color: darken($color2, 30%);
+    border-left-color: lighten($color2, 15%);
+    border-width: 10px;
+    border-style: solid;
+}
+
+h1, h2 {
+    color: black;
+}
+
+span {
+    font: bold 40px/1.6em Arial, san-serif;
+}
+body {
+    background-color: grey;
+}
+h1 {
+    border-bottom: 1px solid black;
+    color: black;
+    text-shadow: $emboss;
+}
+
+p {
+    color: maroon;
+}
+
+body {
+    font-family: sans-serif;
+    line-height: 1.8em;
+}
+
+.nemo {
+    color: blue;
+}
+
+em {
+    font-weight: bold;
+}
+/*
+When using the shorthand property the order of the property values is:
+-> background-color
+-> background-image
+-> background-repeat
+-> background-attachment
+-> background-position
+It does not matter if one of the property values is missing, as long as the ones that are present are in this order.
+*/
+.translation {
+    border-width: 3px;
+    border-radius: 18px;
+    border-style: dashed;
+    padding: 25px;
+    padding-left: 80px;
+    margin: 30px;
+    margin-right: 480px;
+    font-family: Verdana, Geneva, sans-serif;
+    font-weight: lighter;
+    /*background-image: url(img/bg1.png);*/
+    background: $color-translation-background linear-gradient(to top, $color-translation-gradient 1%,
+    rgba(255, 0, 0, 0.6) 50%,
+    rgba(255, 0, 0, 1) 51%,
+    rgba(255, 0, 0, 0.6) 100%)
+    no-repeat top left;
+}
+
+.specials {
+    text-align: center;
+}
+
+aside {
+    border-radius: 18px;
+    box-shadow: 0 0 0 4px $color-asides1,
+    0 0 0 8px $color-asides2,
+    0 0 0 12px $color-asides3;
+    margin: 20px;
+    border: 1px solid grey;
+    padding: 20px;
+    width: 300px;
+    float: right;
+}
+
+footer {
+    background-color: antiquewhite;
+    clear: both;
+}
+
+@media screen and (max-width: 900px) {
+    body {
+        width: 866px;
+    }
+}

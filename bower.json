@@ -1,0 +1,31 @@
+{
+  "name": "TutorialRwdWebpage",
+  "version": "0.0.0",
+  "description": "Tutorial",
+  "main": "index.html",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "Jasmine",
+    "JSCS"
+  ],
+  "authors": [
+    "SGoemans"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jQuery": "*"
+  },
+  "devDependencies": {
+    "jasmine": "^2.0"
+  }
+}

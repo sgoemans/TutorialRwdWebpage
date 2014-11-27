@@ -1,0 +1,86 @@
+div:nth-of-type(1) {
+  background: red;
+  border-top-color: #ff9999;
+  border-right-color: #b30000;
+  border-bottom-color: #660000;
+  border-left-color: #ff4d4d;
+  border-width: 10px;
+  border-style: solid; }
+
+div:nth-of-type(2) {
+  background: cyan;
+  border-top-color: #99ffff;
+  border-right-color: #00b2b3;
+  border-bottom-color: #006666;
+  border-left-color: #4dffff;
+  border-width: 10px;
+  border-style: solid; }
+
+h1, h2 {
+  color: black; }
+
+span {
+  font: bold 40px/1.6em Arial, san-serif; }
+
+body {
+  background-color: grey; }
+
+h1 {
+  border-bottom: 1px solid black;
+  color: black;
+  text-shadow: 0 18px 0 white; }
+
+p {
+  color: maroon; }
+
+body {
+  font-family: sans-serif;
+  line-height: 1.8em; }
+
+.nemo {
+  color: blue; }
+
+em {
+  font-weight: bold; }
+
+/*
+When using the shorthand property the order of the property values is:
+-> background-color
+-> background-image
+-> background-repeat
+-> background-attachment
+-> background-position
+It does not matter if one of the property values is missing, as long as the ones that are present are in this order.
+*/
+.translation {
+  border-width: 3px;
+  border-radius: 18px;
+  border-style: dashed;
+  padding: 25px;
+  padding-left: 80px;
+  margin: 30px;
+  margin-right: 480px;
+  font-family: Verdana, Geneva, sans-serif;
+  font-weight: lighter;
+  /*background-image: url(img/bg1.png);*/
+  background: lightgrey linear-gradient(to top, rgba(255, 0, 0, 0) 1%, rgba(255, 0, 0, 0.6) 50%, red 51%, rgba(255, 0, 0, 0.6) 100%) no-repeat top left; }
+
+.specials {
+  text-align: center; }
+
+aside {
+  border-radius: 18px;
+  box-shadow: 0 0 0 4px black, 0 0 0 8px green, 0 0 0 12px white;
+  margin: 20px;
+  border: 1px solid grey;
+  padding: 20px;
+  width: 300px;
+  float: right; }
+
+footer {
+  background-color: antiquewhite;
+  clear: both; }
+
+@media screen and (max-width: 900px) {
+  body {
+    width: 866px; } }

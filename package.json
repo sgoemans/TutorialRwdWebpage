@@ -1,0 +1,24 @@
+{
+  "name": "TutorialRwdWebpage",
+  "version": "0.0.0",
+  "description": "Tutorial Workflow",
+  "main": "index.html",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "author": "SGoemans",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "*",
+    "gulp-util": "*",
+    "gulp-autoprefixer": "*",
+    "gulp-jshint": "*",
+    "gulp-concat": "*",
+    "gulp-uglify": "*",
+    "gulp-rename": "*",
+    "gulp-minify-html": "*",
+    "gulp-jscs": "*",
+    "gulp-sass": "*",
+    "gulp-jasmine": "*"
+  }
+}
