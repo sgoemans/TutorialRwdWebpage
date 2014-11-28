@@ -7,6 +7,8 @@ var uglify = require('gulp-uglify');
 var jasmine = require('gulp-jasmine');
 var sass = require('gulp-sass');
 var rename = require('gulp-rename');
+var jasminePhantomJs = require('gulp-jasmine2-phantomjs');
+
 
 // Lint Task
 gulp.task('lint', function() {
@@ -37,8 +39,7 @@ gulp.task('watch', function() {
 });
 
 gulp.task('test', function() {
-	return gulp.src(["src/**/*.js", "test/**/*.js"])
-		.pipe(jasmine());
+	return gulp.src("test/**/*.html").pipe(jasminePhantomJs());
 });
 
 // Default Task

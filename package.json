@@ -19,6 +19,7 @@
     "gulp-minify-html": "*",
     "gulp-jscs": "*",
     "gulp-sass": "*",
-    "gulp-jasmine": "*"
+    "gulp-jasmine": "*",
+    "gulp-jasmine2-phantomjs": "*"
   }
 }

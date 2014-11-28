@@ -16,6 +16,9 @@ div:nth-of-type(2) {
   border-width: 10px;
   border-style: solid; }
 
+.invisible {
+  display: none; }
+
 h1, h2 {
   color: black; }
 
@@ -63,7 +66,7 @@ It does not matter if one of the property values is missing, as long as the ones
   font-family: Verdana, Geneva, sans-serif;
   font-weight: lighter;
   /*background-image: url(img/bg1.png);*/
-  background: lightgrey linear-gradient(to top, rgba(255, 0, 0, 0) 1%, rgba(255, 0, 0, 0.6) 50%, red 51%, rgba(255, 0, 0, 0.6) 100%) no-repeat top left; }
+  background: lightgray linear-gradient(to top, rgba(255, 0, 0, 0) 1%, rgba(255, 0, 0, 0.6) 50%, red 51%, rgba(255, 0, 0, 0.6) 100%) no-repeat top left; }
 
 .specials {
   text-align: center; }
@@ -84,3 +87,5 @@ footer {
 @media screen and (max-width: 900px) {
   body {
     width: 866px; } }
+
+/*# sourceMappingURL=styles.css.map */
