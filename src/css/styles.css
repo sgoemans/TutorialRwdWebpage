@@ -1,49 +1,38 @@
-div:nth-of-type(1) {
-  background: red;
-  border-top-color: #ff9999;
-  border-right-color: #b30000;
-  border-bottom-color: #660000;
-  border-left-color: #ff4d4d;
+#box1 {
+  background: green;
+  border-top-color: #1aff1a;
+  border-right-color: #003400;
+  border-bottom-color: black;
+  border-left-color: #00cc00;
   border-width: 10px;
   border-style: solid; }
 
-div:nth-of-type(2) {
-  background: cyan;
-  border-top-color: #99ffff;
-  border-right-color: #00b2b3;
-  border-bottom-color: #006666;
-  border-left-color: #4dffff;
+#box2 {
+  background: white;
+  border-top-color: white;
+  border-right-color: #d9d9d9;
+  border-bottom-color: #b3b3b3;
+  border-left-color: white;
   border-width: 10px;
   border-style: solid; }
 
 .invisible {
   display: none; }
 
-h1, h2 {
-  color: black; }
-
-span {
+#title {
   font: bold 40px/1.6em Arial, san-serif; }
 
-body {
-  background-color: grey; }
-
-h1 {
+h1.tutorial {
   border-bottom: 1px solid black;
   color: black;
-  text-shadow: 0 18px 0 white; }
-
-p {
-  color: maroon; }
+  text-shadow: 0 24px 0 white; }
 
 body {
+  background-color: grey;
   font-family: sans-serif;
   line-height: 1.8em; }
 
-.nemo {
-  color: blue; }
-
-em {
+em.tutorial {
   font-weight: bold; }
 
 /*
@@ -55,7 +44,7 @@ When using the shorthand property the order of the property values is:
 -> background-position
 It does not matter if one of the property values is missing, as long as the ones that are present are in this order.
 */
-.translation {
+article.translation {
   border-width: 3px;
   border-radius: 18px;
   border-style: dashed;
@@ -66,12 +55,12 @@ It does not matter if one of the property values is missing, as long as the ones
   font-family: Verdana, Geneva, sans-serif;
   font-weight: lighter;
   /*background-image: url(img/bg1.png);*/
-  background: lightgray linear-gradient(to top, rgba(255, 0, 0, 0) 1%, rgba(255, 0, 0, 0.6) 50%, red 51%, rgba(255, 0, 0, 0.6) 100%) no-repeat top left; }
+  background: lightgray linear-gradient(to top, rgba(255, 0, 0, 0) 1%, rgba(10, 122, 10, 0.6) 50%, #0a7a0a 51%, rgba(10, 122, 10, 0.6) 100%) no-repeat top left; }
 
 .specials {
   text-align: center; }
 
-aside {
+aside.tutorial {
   border-radius: 18px;
   box-shadow: 0 0 0 4px black, 0 0 0 8px green, 0 0 0 12px white;
   margin: 20px;
@@ -80,7 +69,7 @@ aside {
   width: 300px;
   float: right; }
 
-footer {
+footer.tutorial {
   background-color: antiquewhite;
   clear: both; }
 

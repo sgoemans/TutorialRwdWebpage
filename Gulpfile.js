@@ -9,7 +9,6 @@ var sass = require('gulp-sass');
 var rename = require('gulp-rename');
 var jasminePhantomJs = require('gulp-jasmine2-phantomjs');
 
-
 // Lint Task
 gulp.task('lint', function() {
 	return gulp.src('js/*.js')
