@@ -1,4 +1,4 @@
 TutorialRwdWebpage
 ==================
 
-RWD webpage with special effects
+RWD webpage with cheap boerder effects
