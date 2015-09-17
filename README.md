@@ -1,4 +1,4 @@
 TutorialRwdWebpage
 ==================
 
-RWD webpage with cheap boerder effects
+RWD webpage with cheap border effects
